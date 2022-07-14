@@ -17,7 +17,7 @@ function logIn(dato1,dato2){
     
         if (dato1==usuarioIngresado&&dato2==contraseniaIngresada){
             //console.log('Ingresado Correctamente!');
-            alert('Ingresado Correctamente!');
+            alert('Ingresado Correctamente! Hola ' + dato1);
             break;
         }   else if(dato1!=usuarioIngresado||dato2!=contraseniaIngresada){
             
@@ -38,3 +38,4 @@ function logIn(dato1,dato2){
 }
 singIn(usuario,contrasenia)
 logIn(usuario,contrasenia);
+
